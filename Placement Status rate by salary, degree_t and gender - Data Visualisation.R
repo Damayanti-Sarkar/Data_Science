@@ -34,7 +34,7 @@ ggplot(Runs,aes(x=Matches,y=Runs))+
   geom_boxplot()
 
 
-#Let's analyze titanic scenario
+#Let's analyze placement scenario
 #Download Placement Dataset
 #Set the folder as working directory
 Placement<-read.csv("Placement_Data.csv",stringsAsFactors = FALSE)
@@ -120,8 +120,6 @@ ggplot(Placement,aes(x=status,y = salary))+
   labs(y="salary",
        x="status",
        title = "Placement status rate by salary")
-
-
 
 
 #facet and density plot

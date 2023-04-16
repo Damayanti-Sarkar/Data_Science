@@ -9,3 +9,4 @@ In the Data Visualisation project, I visualised the data for two data the datase
 
 In the Simple Linear Regression, I took a data set of LungCapData and sliced it in two columns age and Lung Capacity and combine both into one data frame. Next I split the data set into test set and training set then applied regression on both dataset and visualised the results between the age and lung capcity.
 
+In the Multi Linear Regression, I took a small data of mouse dataset containing size, weight and tail length of various mice. I first visualised the data using simple linear regresssion for size and weight and then took tail length data additionally, and performed multi linear regression and visualized it. In the end I found out one more data column can bring singnificant difference in the distribution curve (visualisation) of the data set when compared for simple and multi linear regression.
